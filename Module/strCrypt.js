@@ -30,5 +30,5 @@ class stringCrypt {
     }
 }
 
-const strCrypt = new Crypt()
-module.exports = strCrypt 
+const strCrypt = new stringCrypt()
+module.exports = strCrypt
