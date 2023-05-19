@@ -11,7 +11,7 @@ class stringCrypt {
         }
         return Encrypting;
     }
-    
+
     decrypt(encryptedData) {
         let Decrypting = '';
         const CodeKey = (encryptedData).split('');
@@ -29,5 +29,4 @@ class stringCrypt {
     }
 }
 
-// const strCrypt = 
 module.exports = new stringCrypt()
