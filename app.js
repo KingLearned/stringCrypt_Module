@@ -3,9 +3,14 @@ const stringCrypt = require('./Module/strCrypt')
 const app = express()
 const PORT = 3300
 
-const Pwd = 'emmilia&811# 3697821'
-const word = stringCrypt.compare('emla81 672mii&1#3981',Pwd)
+const word = 'It initializes an empty string variable called Decrypting to store the decrypted result.'
 
-console.log(word)
+const ToEncode = stringCrypt.encrypt(word)
+const ToDecode = stringCrypt.decrypt(ToEncode)
+const ToCompare = stringCrypt.compare(ToEncode, ToDecode)
+
+console.log(ToEncode)
+console.log(ToDecode)
+console.log(ToCompare)
 
 app.listen(PORT, () =>  { console.log()})
