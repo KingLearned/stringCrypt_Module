@@ -1,0 +1,19 @@
+{
+  "name": "stringcrypt_module",
+  "version": "1.0.0",
+  "description": "A Module for encrytion and decryption of strings and words",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KingLearned/stringCrypt_Module.git"
+  },
+  "author": "Mr Learned",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KingLearned/stringCrypt_Module/issues"
+  },
+  "homepage": "https://github.com/KingLearned/stringCrypt_Module#readme"
+}
