@@ -29,5 +29,4 @@ class stringCrypt {
     }
 }
 
-
 module.exports = new stringCrypt()
