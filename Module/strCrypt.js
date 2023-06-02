@@ -11,6 +11,7 @@ class stringCrypt {
         }
         return Encrypting;
     }
+    
 
     decrypt(encryptedData) {
         let Decrypting = '';
