@@ -12,6 +12,8 @@ class stringCrypt {
         return Encrypting;
     }
     
+
+    
     decrypt(encryptedData) {
         let Decrypting = '';
         const CodeKey = (encryptedData).split('');
