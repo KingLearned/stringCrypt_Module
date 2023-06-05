@@ -9,6 +9,7 @@ const ToEncode = stringCrypt.encrypt(word)
 const ToDecode = stringCrypt.decrypt(ToEncode)
 const ToCompare = stringCrypt.compare(ToEncode, ToDecode)
 
+
 console.log(ToEncode)
 console.log(ToDecode)
 console.log(ToCompare)
